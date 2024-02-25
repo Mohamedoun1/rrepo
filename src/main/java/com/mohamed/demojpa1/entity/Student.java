@@ -24,6 +24,9 @@ public class Student implements Serializable {
     private String firstName ;
     @Column(name = "last_name")
     private String last_Name ;
+
+    @Column(name= "photo")
+    private String photo_ref
     @Column(name = "email")
     private String email ;
 
